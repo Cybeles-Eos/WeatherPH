@@ -11,7 +11,7 @@ It displays temperature, humidity, wind speed, and a weather icon that changes b
 
 ## Screenshot
 
-![WeatherPH Screenshot](./Images/WeatherPH.png)
+![WeatherPH Screenshot](./images/WeatherPH.png)
 
 
 ## How to Use
