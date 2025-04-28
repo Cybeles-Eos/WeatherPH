@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+   <title>PH Weather</title>
+</head>
+<body>
+   <header class="header box">
+      <p>Philippines Weather</p>
+   </header>
+   <nav class="input_field box">
+      <input id="user_input" type="text" placeholder="Enter your (province/city)">
+      <button id="search">
+         <img src="./images/search-line.svg" >
+      </button>
+   </nav>
+
+   <article class="main_info box">
+      <section class="introduction">
+         <div>
+            <h1 id="inp_location">Location not found.</h1>
+            <img id="img_icon" src="./images/def.svg" alt="icon">
+         </div>
+         <p id="description" class="texts">Weather information unavailable.</p>
+      </section>
+      <section class="details">
+         <p>Weather : <span id="weather">Unknown</span></p>
+         <p>Humidity : <span id="humid">0</span><span class="od">%</span></p>
+         <p>Temperatures : <span id="temp">00</span><span class="c">°c</span></p>
+         <p>Wind Speed : <span id="wind">0.00</span> <span class="od">km/h</span></p>
+      </section>
+   </article>
+   <p class="foo">© 2025 PHWeatherChecker. All rights reserved.</p>
+   <script src="main.js"></script>
+</body>
+</html>
